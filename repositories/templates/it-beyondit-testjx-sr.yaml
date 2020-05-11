@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: it-beyondit
+    provider: github
+    repository: testjx
+  name: it-beyondit-testjx
+spec:
+  description: Imported application for it-beyondit/testjx
+  httpCloneURL: https://github.com/it-beyondit/testjx.git
+  org: it-beyondit
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testjx
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/it-beyondit/testjx.git

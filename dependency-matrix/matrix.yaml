@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: it-beyondit
+  repo: testjx
+  url: https://github.com/it-beyondit/testjx.git
+  version: ""
+  versionURL: ""
