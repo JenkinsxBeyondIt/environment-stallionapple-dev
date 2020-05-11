@@ -1,0 +1,10 @@
+adminUser:
+  password: local:stallionapple/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinsx@beyondit.it
+  token: local:stallionapple/pipelineUser:token
+  username: JenkinsxBeyondIt
+prow:
+  hmacToken: local:stallionapple/prow:hmacToken
