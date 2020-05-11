@@ -1,0 +1,35 @@
+cluster:
+  clusterName: stallionapple
+  environmentGitOwner: it-beyondit
+  environmentGitPublic: true
+  project: norse-fiber-275614
+  provider: gke
+  zone: europe-west2-a
+gitops: true
+environments:
+- key: dev
+- key: staging
+- key: production
+ingress:
+  domain: ""
+  externalDNS: false
+  tls:
+    email: ""
+    enabled: false
+    production: false
+kaniko: true
+secretStorage: local
+storage:
+  logs:
+    enabled: false
+    url: ""
+  reports:
+    enabled: false
+    url: ""
+  repository:
+    enabled: false
+    url: ""
+versionStream:
+  ref: "master"
+  url: https://github.com/jenkins-x/jenkins-x-versions.git
+webhook: lighthouse
